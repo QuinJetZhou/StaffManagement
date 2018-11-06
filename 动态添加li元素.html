@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+	    <meta charset="UTF-8">
+	    <title>js添加li元素</title>
+	</head>
+	
+<body>
+<ul id="letters_List"></ul>
+
+<!-- <p id="demo">请点击按钮向列表中添加项目。</p> -->
+
+<!-- <button onclick="myFunction()">亲自试一试</button> -->
+
+<script>
+function myFunction(letters)
+{
+var node=document.createElement("LI");
+// var textnode=document.createTextNode("Water");
+var textnode=document.createTextNode(letters);
+node.setAttribute("class","index_letters");
+node.appendChild(textnode);
+document.getElementById("letters_List").appendChild(node);
+}
+// myFunction("A");
+
+function Letter(){
+
+    for(var i=65;i<91;i++){
+      	var str=String.fromCharCode(i);
+		myFunction(str);
+    }
+    // return str;
+}
+Letter();
+
+</script>
+
+</body>	
+</html>

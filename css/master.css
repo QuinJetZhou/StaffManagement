@@ -1,0 +1,319 @@
+* {
+    font-family: Microsoft Yahei;
+}
+
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #606066;
+    /*background-color: green;*/
+}
+
+
+#header {
+    display: block;
+    background-color: #3864a7;
+    height: 60px;
+    width: 1190px;
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*border: 0;*/
+}
+
+nav .logo,
+nav .Login {
+    display: inline-block;
+
+    /*font-size:20px;*/
+}
+
+nav .logo a p {
+    display: inline-block;
+    font-size: 20px;
+
+    height: 25px;
+    margin-left: 5px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+nav .logo a img {
+    /*padding-top: 10px;*/
+    height: 24px;
+    margin-left: 20px;
+}
+
+nav .Login a {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.Login {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #fafbfc;
+}
+
+.list {
+    width: 200px;
+    height: 670px;
+    display: inline-block;
+    float: left;
+
+    background-color: #212531;
+    position: absolute;
+    left: 0;
+}
+
+.list .aa p {
+    display: inline-block;
+    color: #fafbfc;
+    font-size: 18px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 7px;
+}
+
+.list .aa img {
+    display: inline-block;
+}
+
+.list .aa,
+.list .bb {
+    border-bottom: 1px solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+.bb p {
+    color: #8c93a3;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+ul li a {
+    color: #8c93a3;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+ul li a img {
+    padding-right: 10px;
+}
+
+#final {
+    border-bottom: 0px;
+    height: 300px;
+}
+
+.control {
+
+    display: inline-block;
+    width: 990px;
+    height: 10px;
+    float: left;
+}
+
+#content {
+    position: absolute;
+}
+
+.submenu-list {
+    width: 198px;
+    position: absolute;
+    background-color: #fafbfc;
+    line-height: 32px;
+    top: 0;
+    left: 200px;
+    border-color: #c0c0cc;
+    border-right: 2px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    height: 670px ;
+    overflow: hidden;
+    table-layout: fixed;
+    display: none;
+
+}
+
+.submenu-list span {
+    color: #c0c0cc;
+}
+
+/*.submenu-list a{
+    color: #303033;
+    
+}*/
+
+.submenu-list .Tongxun {
+    font-size: 18px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    border-color: #c0c0cc;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: block;
+
+
+    word-break: keep-all;
+    /*!* 不换行 *!*/
+    white-space: nowrap;
+    /*!* 不换行 *!*/
+    overflow: hidden;
+    /* !* 内容超出宽度时隐藏超出部分的内容 *!*/
+}
+
+/*.submeun-list ul {
+    padding-top: 20px;
+    padding-left: 20px;
+}*/
+
+
+
+/*svg i标签*/
+
+.submenu-list ul li svg {
+    padding-right: 10px;
+}
+
+
+
+/*.submenu-list ul li .sub-list-p{
+    padding-left: 10px
+}
+*/
+
+.submenu-list ul li {
+    display: block;
+    overflow: hidden;
+    word-break: keep-all;
+    /* 不换行 */
+    white-space: nowrap;
+    /* 不换行 */ 
+
+}
+
+.submenu-list ul li a ,
+.submenu-list ul li .sub-list-p,
+.submenu-list .Tongxun {
+    color: #303033;
+}
+
+.submenu-list ul li div {
+    /*display: none;*/
+}
+.submenu-list ul li ul{
+    display: none;
+}
+
+.submenu-list ul li ul li ul  {
+    display: none;
+}
+
+
+.control{
+    position: absolute;
+    width: 790px;
+    height: auto;
+    left: 400px;
+    top: 0px;
+}
+
+.control iframe{
+    width: 790px;
+    height: 670px;
+}
+
+#content .list .bb .group li .people{
+    position: absolute;
+    background-color: #fff;
+    left: 200px;
+    top:0;
+    width: 990px;
+
+}
+#content .list .bb .group li .people .header-div{
+    margin-left: 3px;
+    padding-bottom: 29px;
+    padding-top: 29px;
+    border-bottom: 1px solid #c0c0cc;
+}
+#content .list .bb .group li .people .return{
+    /*margin-top: 25px;*/
+    margin-left: 72px;
+    border: 1px solid;
+    background-color: white;
+    border-color: #478aee;
+    width: 60px;
+    height: 25px;
+    color: #478aee;
+    border-radius: 2px;
+}
+
+#content .list .bb .group .people .title{
+    font-size: 18px;
+    color: #303033;
+    margin-left: 15px;
+
+}
+#content .list .bb .group li .people input{
+    width: 270px;
+    height: 35px;
+    margin-top: 25px;
+}
+#infor {
+    margin-left: 85px;
+    width: 480px;
+    float: left;
+}
+
+#add_dele{
+
+    width: 400px;
+    display: inline-block;
+    float: left;
+}
+
+
+.control {
+    display: none;
+}
+
+
+
+
+
+
+
+/*鼠标上移变色*/
+/*#content .list .bb>ul>li:hover{
+    width: 200px;
+    color: #478aee;
+    background:rgba(71, 142, 170, 0.2);
+}
+*/
+#content .list .bb>ul>li{
+
+}
+
+
+
+

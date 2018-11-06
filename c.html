@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>toggle-jquery1.9</title>
+    <script src="https://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+    <style>
+        div.container {
+            height: 320px;
+            border: 1px solid #ccc;
+            overflow: hidden;
+        }
+        .container .left {
+            /*overflow: hidden;*/
+            width: 200px;
+            height: 300px;
+            background-color: #36f;
+            margin-left: 200px;
+            position: absolute;
+            /*text-align:center;*/
+            /*display: none;*/
+        }
+        /*.left .xx{*/
+            /*!*overflow: hidden;*!*/
+        /*}*/
+        .container .left  span{
+            float: left;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left">
+        <!--<ul  class="xx">-->
+
+            <!--<li><span> Lorem ipsum dolor sit amet, uptates.</span></li>-->
+            <!--&lt;!&ndash;<li>consectetur adipisicing elit.</li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li>Aliquid dignissimos dolore ex exercitationem, </li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li>fugiat labore molestias natus nihil numquam, </li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li> placeat porro quaerat quam quo rem reprehenderit,</li>&ndash;&gt;-->
+        <!--</ul>-->
+        <span>Lorem ipsum dolor sit amet, uptates.</span>
+        <!--<span>Lorem ipsum dolor sit amet, uptates.</span>-->
+        <!--<span>Lorem ipsum dolor sit amet, uptates.</span>-->
+        <!--<span>Lorem ipsum dolor sit amet, uptates.</span>-->
+    </div>
+</div>
+<button id="toggle">toggle</button>
+<script>
+    $(document).ready(function(){
+        $('#toggle').click(function(){
+            $('.left').animate({width:'toggle'},1000);
+        });
+    });
+</script>
+</body>
+</html>
